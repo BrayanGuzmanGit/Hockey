@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "materia": "Matemáticas",
+        "pregunta": "¿Cuál es el valor de 'x' en la ecuación 3x + 5 = 20?",
+        "opciones": [
+            "x = 5",
+            "x = 3",
+            "x = 6",
+            "x = 4"
+        ],
+        "respuesta_correcta": "x = 5"
+    },
+    {
+        "id": 2,
+        "materia": "Matemáticas",
+        "pregunta": "¿Cuál es el área de un triángulo con base de 8 cm y altura de 5 cm?",
+        "opciones": [
+            "40 cm²",
+            "20 cm²",
+            "13 cm²",
+            "26 cm²"
+        ],
+        "respuesta_correcta": "20 cm²"
+    },
+    {
+        "id": 3,
+        "materia": "Matemáticas",
+        "pregunta": "¿Cuál es el resultado de calcular 2³ + 5 x 2?",
+        "opciones": [
+            "18",
+            "26",
+            "16",
+            "21"
+        ],
+        "respuesta_correcta": "18"
+    },
+    {
+        "id": 4,
+        "materia": "Matemáticas",
+        "pregunta": "¿Cuál es el perímetro de un cuadrado cuyo lado mide 7 cm?",
+        "opciones": [
+            "14 cm",
+            "49 cm",
+            "28 cm",
+            "21 cm"
+        ],
+        "respuesta_correcta": "28 cm"
+    },
+    {
+        "id": 5,
+        "materia": "Matemáticas",
+        "pregunta": "¿Cuánto es el 25% de 200?",
+        "opciones": [
+            "25",
+            "40",
+            "75",
+            "50"
+        ],
+        "respuesta_correcta": "50"
+    },
+    {
+        "id": 6,
+        "materia": "Matemáticas",
+        "pregunta": "Si lanzas un dado estándar de 6 caras, ¿cuál es la probabilidad de obtener un número par?",
+        "opciones": [
+            "1/6",
+            "1/2",
+            "1/3",
+            "2/3"
+        ],
+        "respuesta_correcta": "1/2"
+    },
+    {
+        "id": 7,
+        "materia": "Matemáticas",
+        "pregunta": "¿Cuál es la raíz cuadrada de 144?",
+        "opciones": [
+            "12",
+            "14",
+            "11",
+            "16"
+        ],
+        "respuesta_correcta": "12"
+    },
+    {
+        "id": 8,
+        "materia": "Matemáticas",
+        "pregunta": "¿Qué nombre recibe un ángulo que mide exactamente 90 grados?",
+        "opciones": [
+            "Ángulo agudo",
+            "Ángulo llano",
+            "Ángulo recto",
+            "Ángulo obtuso"
+        ],
+        "respuesta_correcta": "Ángulo recto"
+    },
+    {
+        "id": 9,
+        "materia": "Matemáticas",
+        "pregunta": "¿Cuál es el resultado de simplificar la fracción 12/16 a su mínima expresión?",
+        "opciones": [
+            "2/3",
+            "3/4",
+            "4/5",
+            "6/8"
+        ],
+        "respuesta_correcta": "3/4"
+    },
+    {
+        "id": 10,
+        "materia": "Matemáticas",
+        "pregunta": "¿Cuál es la media (promedio) de los números 4, 8, 12 y 16?",
+        "opciones": [
+            "10",
+            "8",
+            "12",
+            "9"
+        ],
+        "respuesta_correcta": "10"
+    },
+    {
+        "id": 11,
+        "materia": "Física",
+        "pregunta": "¿Cuál es la unidad de medida de la fuerza en el Sistema Internacional?",
+        "opciones": [
+            "Joule (J)",
+            "Watt (W)",
+            "Newton (N)",
+            "Pascal (Pa)"
+        ],
+        "respuesta_correcta": "Newton (N)"
+    },
+    {
+        "id": 12,
+        "materia": "Física",
+        "pregunta": "Si un automóvil recorre 150 km en 3 horas a velocidad constante, ¿cuál es su velocidad media?",
+        "opciones": [
+            "45 km/h",
+            "50 km/h",
+            "60 km/h",
+            "40 km/h"
+        ],
+        "respuesta_correcta": "50 km/h"
+    },
+    {
+        "id": 13,
+        "materia": "Física",
+        "pregunta": "¿Qué ley de Newton establece que a toda acción corresponde una reacción de igual magnitud pero en sentido opuesto?",
+        "opciones": [
+            "Primera ley",
+            "Segunda ley",
+            "Tercera ley",
+            "Ley de la gravitación universal"
+        ],
+        "respuesta_correcta": "Tercera ley"
+    },
+    {
+        "id": 14,
+        "materia": "Física",
+        "pregunta": "¿Cuál es el valor aproximado de la aceleración de la gravedad en la superficie terrestre?",
+        "opciones": [
+            "9.8 m/s²",
+            "10.5 m/s²",
+            "8.9 m/s²",
+            "9.8 m/s"
+        ],
+        "respuesta_correcta": "9.8 m/s²"
+    },
+    {
+        "id": 15,
+        "materia": "Física",
+        "pregunta": "¿Qué tipo de energía posee un objeto debido a su altura sobre el suelo?",
+        "opciones": [
+            "Energía cinética",
+            "Energía potencial gravitatoria",
+            "Energía térmica",
+            "Energía elástica"
+        ],
+        "respuesta_correcta": "Energía potencial gravitatoria"
+    },
+    {
+        "id": 16,
+        "materia": "Física",
+        "pregunta": "¿Qué instrumento se utiliza para medir la corriente eléctrica que fluye por un circuito?",
+        "opciones": [
+            "Voltímetro",
+            "Termómetro",
+            "Amperímetro",
+            "Barómetro"
+        ],
+        "respuesta_correcta": "Amperímetro"
+    },
+    {
+        "id": 17,
+        "materia": "Física",
+        "pregunta": "¿Cómo se llama el cambio de estado de la materia de líquido a gas?",
+        "opciones": [
+            "Condensación",
+            "Sublimación",
+            "Evaporación",
+            "Fusión"
+        ],
+        "respuesta_correcta": "Evaporación"
+    },
+    {
+        "id": 18,
+        "materia": "Física",
+        "pregunta": "Según la Ley de Ohm, ¿cuál es la fórmula para calcular el voltaje (V) en función de la corriente (I) y la resistencia (R)?",
+        "opciones": [
+            "V = I / R",
+            "V = I * R",
+            "V = R / I",
+            "V = I + R"
+        ],
+        "respuesta_correcta": "V = I * R"
+    },
+    {
+        "id": 19,
+        "materia": "Física",
+        "pregunta": "¿Qué propiedad de la onda determina la altura del sonido (si es agudo o grave)?",
+        "opciones": [
+            "Amplitud",
+            "Frecuencia",
+            "Velocidad",
+            "Longitud de onda"
+        ],
+        "respuesta_correcta": "Frecuencia"
+    },
+    {
+        "id": 20,
+        "materia": "Física",
+        "pregunta": "¿Cuál de los siguientes materiales es un buen conductor de la electricidad?",
+        "opciones": [
+            "Madera",
+            "Plástico",
+            "Cobre",
+            "Vidrio"
+        ],
+        "respuesta_correcta": "Cobre"
+    },
+    {
+        "id": 21,
+        "materia": "Programación",
+        "pregunta": "¿Qué tipo de dato se utiliza para almacenar un valor de verdadero o falso (True/False)?",
+        "opciones": [
+            "String",
+            "Integer",
+            "Boolean",
+            "Float"
+        ],
+        "respuesta_correcta": "Boolean"
+    },
+    {
+        "id": 22,
+        "materia": "Programación",
+        "pregunta": "¿Qué estructura de control se utiliza para repetir un bloque de código un número determinado de veces?",
+        "opciones": [
+            "If - Else",
+            "Bucle (Loop)",
+            "Función",
+            "Variable"
+        ],
+        "respuesta_correcta": "Bucle (Loop)"
+    },
+    {
+        "id": 23,
+        "materia": "Programación",
+        "pregunta": "En la mayoría de los lenguajes de programación, ¿cuál es el índice del primer elemento en una lista o arreglo (array)?",
+        "opciones": [
+            "1",
+            "0",
+            "-1",
+            "2"
+        ],
+        "respuesta_correcta": "0"
+    },
+    {
+        "id": 24,
+        "materia": "Programación",
+        "pregunta": "¿Qué es un 'algoritmo' en informática?",
+        "opciones": [
+            "Un lenguaje de programación moderno",
+            "Una serie ordenada de pasos para resolver un problema",
+            "Un error en el código de un programa",
+            "Un componente físico de la computadora"
+        ],
+        "respuesta_correcta": "Una serie ordenada de pasos para resolver un problema"
+    },
+    {
+        "id": 25,
+        "materia": "Programación",
+        "pregunta": "¿Qué símbolo se utiliza comúnmente en la mayoría de los lenguajes para asignar un valor a una variable?",
+        "opciones": [
+            "==",
+            "=",
+            "->",
+            ":="
+        ],
+        "respuesta_correcta": "="
+    },
+    {
+        "id": 26,
+        "materia": "Programación",
+        "pregunta": "¿Qué significa el término 'HTML' en el desarrollo web?",
+        "opciones": [
+            "HyperText Markup Language",
+            "High Technical Modern Language",
+            "Home Tool Markup Line",
+            "Hyperlink Text Management Logic"
+        ],
+        "respuesta_correcta": "HyperText Markup Language"
+    },
+    {
+        "id": 27,
+        "materia": "Programación",
+        "pregunta": "En Python, ¿cuál es la función adecuada para mostrar un mensaje en la pantalla?",
+        "opciones": [
+            "echo()",
+            "console.log()",
+            "print()",
+            "write()"
+        ],
+        "respuesta_correcta": "print()"
+    },
+    {
+        "id": 28,
+        "materia": "Programación",
+        "pregunta": "¿Cómo se le llama a un error o fallo en el código de un programa?",
+        "opciones": [
+            "Virus",
+            "Bug",
+            "Patch",
+            "Bit"
+        ],
+        "respuesta_correcta": "Bug"
+    },
+    {
+        "id": 29,
+        "materia": "Programación",
+        "pregunta": "¿Cuál es la función principal de una estructura condicional (if / else)?",
+        "opciones": [
+            "Ejecutar código según se cumpla o no una condición",
+            "Declarar variables globales",
+            "Imprimir datos en pantalla de forma infinita",
+            "Guardar el código en la base de datos"
+        ],
+        "respuesta_correcta": "Ejecutar código según se cumpla o no una condición"
+    },
+    {
+        "id": 30,
+        "materia": "Programación",
+        "pregunta": "¿Cuál de los siguientes NO es un lenguaje de programación?",
+        "opciones": [
+            "Python",
+            "Java",
+            "C++",
+            "Google Chrome"
+        ],
+        "respuesta_correcta": "Google Chrome"
+    }
+]

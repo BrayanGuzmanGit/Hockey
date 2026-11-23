@@ -1,0 +1,97 @@
+[gd_scene format=3 uid="uid://bngrkvooa1roe"]
+
+[ext_resource type="Script" uid="uid://cxvft6pvuscge" path="res://menu/menu.gd" id="1_6phg1"]
+[ext_resource type="VideoStream" uid="uid://bchi7cvyom1bm" path="res://gemini_generated_video_cdc410d3.ogv" id="2_n0u58"]
+[ext_resource type="Script" uid="uid://bvvq0kmxc62m8" path="res://menu/texture_rect.gd" id="3_s13gs"]
+[ext_resource type="Texture2D" uid="uid://c3r7xlg54lu3v" path="res://Imagenes/ChatGPT Image 16 sept 2026, 17_33_30.png" id="4_o2wvg"]
+[ext_resource type="Texture2D" uid="uid://bgf1d084hfafq" path="res://Imagenes/ChatGPT Image 16 sept 2026, 17_35_21.png" id="5_17ory"]
+[ext_resource type="Texture2D" uid="uid://uj2ggylec2jy" path="res://Imagenes/ChatGPT Image 16 sept 2026, 17_36_18.png" id="6_6tlv5"]
+[ext_resource type="Texture2D" uid="uid://bhlagb1qi8h0j" path="res://Imagenes/ChatGPT Image 16 sept 2026, 17_39_39.png" id="7_gq2ij"]
+[ext_resource type="Texture2D" uid="uid://0a3pey7d45f3" path="res://Imagenes/ChatGPT Image 16 sept 2026, 17_38_16.png" id="8_rwo15"]
+
+[node name="Control" type="Control" unique_id=119776280]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6phg1")
+
+[node name="TextureRect" type="VideoStreamPlayer" parent="." unique_id=378828265]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("2_n0u58")
+autoplay = true
+expand = true
+script = ExtResource("3_s13gs")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1931718965]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=643555131]
+layout_mode = 2
+theme_override_constants/separation = 25
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer/VBoxContainer" unique_id=1029458329]
+custom_minimum_size = Vector2(600, 150)
+layout_mode = 2
+texture = ExtResource("4_o2wvg")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureButton" type="TextureButton" parent="CenterContainer/VBoxContainer" unique_id=950355377]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("5_17ory")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="TextureButton2" type="TextureButton" parent="CenterContainer/VBoxContainer" unique_id=991602374]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("6_6tlv5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton3" type="TextureButton" parent="CenterContainer/VBoxContainer" unique_id=2125196880]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("7_gq2ij")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="TextureButton4" type="TextureButton" parent="CenterContainer/VBoxContainer" unique_id=257493384]
+custom_minimum_size = Vector2(300, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("8_rwo15")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1449488984]
+position = Vector2(577, 326)
+
+[connection signal="mouse_entered" from="CenterContainer/VBoxContainer/TextureButton" to="." method="_on_texture_button_mouse_entered"]
+[connection signal="mouse_exited" from="CenterContainer/VBoxContainer/TextureButton" to="." method="_on_texture_button_mouse_exited"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/TextureButton" to="." method="_on_texture_button_pressed"]
+[connection signal="mouse_entered" from="CenterContainer/VBoxContainer/TextureButton2" to="." method="_on_texture_button_2_mouse_entered"]
+[connection signal="mouse_exited" from="CenterContainer/VBoxContainer/TextureButton2" to="." method="_on_texture_button_2_mouse_exited"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/TextureButton2" to="." method="_on_texture_button_2_pressed"]
+[connection signal="mouse_entered" from="CenterContainer/VBoxContainer/TextureButton3" to="." method="_on_texture_button_3_mouse_entered"]
+[connection signal="mouse_exited" from="CenterContainer/VBoxContainer/TextureButton3" to="." method="_on_texture_button_3_mouse_exited"]
+[connection signal="mouse_entered" from="CenterContainer/VBoxContainer/TextureButton4" to="." method="_on_texture_button_4_mouse_entered"]
+[connection signal="mouse_exited" from="CenterContainer/VBoxContainer/TextureButton4" to="." method="_on_texture_button_4_mouse_exited"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/TextureButton4" to="." method="_on_texture_button_4_pressed"]

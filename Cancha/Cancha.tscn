@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://b3rnvto2flsh8"]
+
+[ext_resource type="Texture2D" uid="uid://pjwt6c0ltksh" path="res://Imagenes/cancha.png" id="1_7xhq7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7xhq7"]
+size = Vector2(949, 78)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ddn70"]
+size = Vector2(220.75, 96)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lhedq"]
+size = Vector2(36, 204)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7aktr"]
+size = Vector2(61, 203)
+
+[node name="Cancha" type="StaticBody2D" unique_id=1553940479]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=565283619]
+scale = Vector2(0.81222665, 0.7363281)
+texture = ExtResource("1_7xhq7")
+
+[node name="Paredes" type="StaticBody2D" parent="." unique_id=1278034905]
+
+[node name="ParedSuperior" type="CollisionShape2D" parent="Paredes" unique_id=1494494287]
+position = Vector2(0.5, -280.5)
+shape = SubResource("RectangleShape2D_7xhq7")
+
+[node name="ParedInferior" type="CollisionShape2D" parent="Paredes" unique_id=773087787]
+position = Vector2(0, 275)
+shape = SubResource("RectangleShape2D_7xhq7")
+
+[node name="ParedIzquierdaArriba" type="CollisionShape2D" parent="Paredes" unique_id=161673295]
+position = Vector2(-523, -221)
+rotation = -1.5707964
+shape = SubResource("RectangleShape2D_ddn70")
+
+[node name="ParedIzquierdaAbajo" type="CollisionShape2D" parent="Paredes" unique_id=1572484120]
+position = Vector2(-523, 204.375)
+rotation = -1.5707964
+shape = SubResource("RectangleShape2D_ddn70")
+
+[node name="ParedDerechaArriba" type="CollisionShape2D" parent="Paredes" unique_id=1742819361]
+position = Vector2(523, -221)
+rotation = -1.5707964
+shape = SubResource("RectangleShape2D_ddn70")
+
+[node name="ParedDerechaAbajo" type="CollisionShape2D" parent="Paredes" unique_id=508797823]
+position = Vector2(523, 204.375)
+rotation = -1.5707964
+shape = SubResource("RectangleShape2D_ddn70")
+
+[node name="ParedPorteríaJugador" type="CollisionShape2D" parent="Paredes" unique_id=39300573]
+position = Vector2(-553, -9)
+shape = SubResource("RectangleShape2D_lhedq")
+
+[node name="ParedPorteríaIA" type="CollisionShape2D" parent="Paredes" unique_id=2085540316]
+position = Vector2(553, -9)
+shape = SubResource("RectangleShape2D_lhedq")
+
+[node name="PorteríaJugador" type="Area2D" parent="." unique_id=1563093849]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PorteríaJugador" unique_id=1116657896]
+position = Vector2(-503.5, -7.5)
+shape = SubResource("RectangleShape2D_7aktr")
+
+[node name="PorteríaIA" type="Area2D" parent="." unique_id=30796328]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PorteríaIA" unique_id=1602161410]
+position = Vector2(506, -9)
+shape = SubResource("RectangleShape2D_7aktr")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1258351547]
+position = Vector2(3, -9)

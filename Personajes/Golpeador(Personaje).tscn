@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cx753pbw1q7js"]
+
+[ext_resource type="Script" uid="uid://dcbkpu1ufb6a0" path="res://Personajes/movimiento.gd" id="1_1fcns"]
+[ext_resource type="Texture2D" uid="uid://b5cmv32ce4l2b" path="res://Imagenes/golpeador.png" id="1_dy8lv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tsy18"]
+radius = 52.086468
+
+[node name="Personaje" type="CharacterBody2D" unique_id=319862482]
+script = ExtResource("1_1fcns")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1757609727]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_dy8lv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=165033681]
+shape = SubResource("CircleShape2D_tsy18")

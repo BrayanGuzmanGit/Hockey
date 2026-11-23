@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://n54jma2fys7t"]
+
+[ext_resource type="Script" uid="uid://bs4fd36fiisne" path="res://Discos/movimiento.gd" id="1_3nqcx"]
+[ext_resource type="Texture2D" uid="uid://b4cy0xtxd34kq" path="res://Imagenes/disco.png" id="1_31ka7"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_7xhq7"]
+friction = 0.06
+bounce = 0.88
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tsy18"]
+radius = 22.022715
+
+[node name="Disco" type="RigidBody2D" unique_id=51599856]
+mass = 0.5
+physics_material_override = SubResource("PhysicsMaterial_7xhq7")
+gravity_scale = 0.0
+linear_damp = 0.12
+lock_rotation = true
+continuous_cd = 2
+script = ExtResource("1_3nqcx")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1340081989]
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("1_31ka7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1641331633]
+shape = SubResource("CircleShape2D_tsy18")

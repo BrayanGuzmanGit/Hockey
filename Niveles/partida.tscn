@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://ot3bn28tyldw"]
+
+[ext_resource type="PackedScene" uid="uid://b3rnvto2flsh8" path="res://Cancha/Cancha.tscn" id="1_bihi4"]
+[ext_resource type="PackedScene" uid="uid://n54jma2fys7t" path="res://Discos/disco.tscn" id="2_qeo72"]
+[ext_resource type="PackedScene" uid="uid://cx753pbw1q7js" path="res://Personajes/Golpeador(Personaje).tscn" id="3_7k5wf"]
+[ext_resource type="Script" path="res://Niveles/partida.gd" id="4_partida"]
+
+[node name="Partida" type="Node2D" unique_id=1994562942]
+script = ExtResource("4_partida")
+
+[node name="Cancha" parent="." unique_id=1553940479 instance=ExtResource("1_bihi4")]
+position = Vector2(580, 325)
+
+[node name="Disco" parent="." unique_id=51599856 instance=ExtResource("2_qeo72")]
+position = Vector2(581, 316)
+
+[node name="Personaje" parent="." unique_id=319862482 instance=ExtResource("3_7k5wf")]
+position = Vector2(168, 313)
+
+[node name="OponenteIA" parent="." instance=ExtResource("3_7k5wf")]
+position = Vector2(950, 325)
+control_ia = true
+velocidad_ia = 520.0
+distancia_para_impulso_maximo = 30.0
+impulso_minimo_golpe_ia = 50.0
+impulso_maximo_golpe_ia = 360.0
+limite_minimo = Vector2(632, 136)
+limite_maximo = Vector2(1003, 509)
+centro_cancha_ia = 580.0
+linea_defensa_ia = 925.0
+demora_reaccion_ia = 0.12
